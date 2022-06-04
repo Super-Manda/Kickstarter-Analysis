@@ -4,7 +4,7 @@ An analysis to uncover trends
 ## Overview of Project
 This assignment began with an initial module that looked at 4115 Kickstarter campaigns.  The client, Louise, has asked us to break down, analyze, and compare other categories and subcategories and then zoom in on theater/plays that were most comparable to her play, and look at the average funding level of each.  
 
-:cherry_blossom: The older Excel file uploaded to Github contains those findings.
+:cherry_blossom: **The older Excel file uploaded to Github contains those findings.**
 [KICKSTARTER MODULE FILE](https://github.com/Super-Manda/Kickstarter-Analysis/blob/main/Amanda%20D%20-%20Module%201%20Excel%20Kickstarter.zip)
 
 •	In the initial module, the subcategories needed to be separated from parent category and analyzed separately with a stacked bar chart showing outcomes.  In addition, dates needed to be converted, and then a year column was established.  A column was also made for average donation (rounded with an IfError function) and a color-coded column that reflects the percentage funded were added.  This made it easier to distinguish the failed from the successful, although, the successful and failed U.S. theater productions were also placed on their own tabs.
@@ -19,7 +19,7 @@ This assignment began with an initial module that looked at 4115 Kickstarter cam
 
 Louise then explained that she has particular interest in outcomes based upon launch date and outcomes based upon fundraising goal.  
 
-:cherry_blossom: The newer Excel file uploaded to Github contains those findings.
+:cherry_blossom: **The newer Excel file uploaded to Github contains those findings.**
 [KICKSTARTER CHALLENGE FILE]( https://github.com/Super-Manda/Kickstarter-Analysis/blob/main/Amanda%20D%20-%20Module%201%20CHALLENGE%20Excel%20Kickstarter%20fewer%20tabs.xlsx)
 
 
@@ -36,7 +36,7 @@ Louise’s play, “Fever,” has been doing well with fundraising so far.  She 
 
 •	A Line Graph was inserted to display the results.  This Line Graph makes it is easier to see what the “lower success months” are, such as December, because the dots nearly intersect.
  
-:cherry_blossom: Here is the Line Graph based upon theater outcomes versus launch date: 
+:cherry_blossom: **Here is the Line Graph based upon theater outcomes versus launch date:** 
 ![THEATER OUTCOMES VS LAUNCH DATE IMAGE](https://github.com/Super-Manda/Kickstarter-Analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 
@@ -52,7 +52,7 @@ Louise’s play, “Fever,” has been doing well with fundraising so far.  She 
 
 •	Nevertheless, I would recommend for Louise to set smaller goals for herself and build up (rather than to set a high expectation from the outset), until more data can be collected and included at the higher funding goal levels.  In this dataset, what would make more sense is to actually combine the final interval to $25,000 and up.  In that instance, there would have been 12 out of 42 successful projects.  Then the percentages would have shown a clearer digression, from 45% success at the $20,000 to $24,999 interval, down to 29% success at the $25,000 and over interval.     
 
-:cherry_blossom: Here is the graph based upon the outcomes and goal intervals that were requested: 
+:cherry_blossom: **Here is the graph based upon the outcomes and goal intervals that were requested:** 
 ![OUTCOMES VS GOALS IMAGE]( https://github.com/Super-Manda/Kickstarter-Analysis/blob/main/Outcomes_vs_Goals.png)
 
 
@@ -69,15 +69,19 @@ Louise’s play, “Fever,” has been doing well with fundraising so far.  She 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on the Launch Date?
+- **What are two conclusions you can draw about the Outcomes based on the Launch Date?**
 
 1.	The best month for Louise to launch the theater campaign is May, but since May just passed, the next best choice would be June. The line for “Failed” on the graph is relatively stable, so it may suggest that the “Successful” line could be more affected by seasonality.  She should take advantage of the good weather.
 2.	The worst month for Louise to launch would be December, and that may be because people are funding holiday shows or giving to other charities or perhaps not thinking about funding theater.
 
-- What can you conclude about the Outcomes based on Goals?
+
+- **What can you conclude about the Outcomes based on Goals?**
+
 •	Generally, the lower the fundraising goal, the more likely a campaign is going to be successful; however, there are also more of the small projects than the large ones.  Successful projects with under $10,000 funding goals constituted 622 of the 694 successful projects (90%), so it is hard to make comparisons to the successful plays with larger goals.  
 
-- What are some limitations of this dataset?
+
+- **What are some limitations of this dataset?**
+
 •	There are outliers in fundraising, and we don’t know where they specifically needed to spend the money, such as on the venue, costumes, set design, better quality actors, etc.
 
 •	We do not know true success or failure based upon funding alone.  For example, a play that “failed” in its fundraising goal may have made do with fewer resources and still entertained the masses, while a low-budget play that “succeeded” in its fundraising goal may not have been enjoyable to people on a shoestring budget.  They’re not giving us any “Siskel and Ebert ratings” for these plays.
@@ -86,10 +90,12 @@ Louise’s play, “Fever,” has been doing well with fundraising so far.  She 
 
 •	Some of the categories and subcategories were separate, like plays, musicals, and drama.  There may have been a bigger picture if analyzed all together.
 
-- What are some other possible tables and/or graphs that we could create?
+
+- **What are some other possible tables and/or graphs that we could create?**
+
 •	As aforementioned, I would re-create the graph with the funding goals to instead interval “$25,000 and over” all together, so as to combine the number of projects in that statistic and get a more reliable understanding.  
 
-:cherry_blossom: Here is the Line Graph of my suggested adjusted intervals: 
+:cherry_blossom: **Here is the Line Graph of my suggested adjusted intervals:** 
 ![ADJUSTED FUNDING INTERVALS GRAPH]( https://github.com/Super-Manda/Kickstarter-Analysis/blob/main/Adjusted_Intervals_Graph.png)
 
 •	The Outcomes Based on Goals may make sense as a stacked bar chart, so that it can better compare to the previous stacked bar charts on Parent category and Subcategory Outcomes.
